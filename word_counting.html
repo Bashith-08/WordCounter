@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	<title>WORD COUNT</title>
+       <meta charset="utf-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  	      
+  	   <link rel="stylesheet" type="text/css" href="word_counting.css"> 
+   
+  
+  </head>
+  <body>
+  	<div class="container well">
+         
+         <h3>Word Counter</h3>
+            <div class="form-group">
+               <label for="textArea">Enter Text</label>
+               <textarea placeholder="Type Here...." class="form-control" id="textArea" rows=20 cols= 60></textarea>
+            </div>
+  	 
+
+        <input type="button" onclick="fn1()" class="btn btn-success" id="btn1" value="Count"><br><br>
+         
+         <table class="table">
+          <tr>
+            <td> <div id="counting1">Words : 0</div></td>
+            <td> <div id="counting5">Letters : 0</div></td>
+            <td> <div id="counting6">Sentences : 0</div></td>
+          </tr>
+          <tr>
+            <td> <div id="counting2">Characters : 0</div></td>
+            <td> <div id="counting3">Small Letters : 0</div></td>
+            <td> <div id="counting4">Capital Letters : 0</div></td>
+          </tr>
+         </table>
+           
+  	  
+    <script type="text/javascript" src="word_counting.js"></script> 
+   
+
+
+  	
+  	
+  </body>
+ </html>
+
+
